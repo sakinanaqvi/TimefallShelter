@@ -1,9 +1,10 @@
 # Timefall Shelter Teleporter
 
-Overview
+# Overview
+
 The Timefall Shelter Teleporter is a Java program designed to manage and select shelters based on user input and availability. It performs the following tasks:
 
-Input Handling:
+# Input Handling:
 
 Accepts a list of available timefall shelters in JSON format.
 Receives comma-separated chiral frequencies supported by the user's wrist cuff.
@@ -11,7 +12,8 @@ Shelter Selection:
 
 Searches through the provided list of shelters to find the first one that matches the supported chiral frequencies.
 Uses a collection from the java.util.Collection framework to efficiently manage and search for shelters.
-JSON Management:
+
+# JSON Management:
 
 Prunes unavailable shelters from the JSON data as they are encountered.
 Saves the updated list of shelters by overwriting the original JSON file.
